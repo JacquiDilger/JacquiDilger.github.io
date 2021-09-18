@@ -1,0 +1,88 @@
+#page-content {
+    width: 900px;
+    margin: 2em auto 0;
+    padding-bottom: 2em;
+}
+
+body {
+    background-color: #e9e6ff;
+    font-family: 'Glory', sans-serif;
+}
+
+h1 {
+    color: #f4b860;
+    text-align: center;
+}
+
+h3 {
+    color: #d34e24;
+}
+
+h4 {
+    color: #282f44;
+    font-style: italic;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+p {
+    text-align: justify;
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
+
+/* all CSS rules containing nav are in relation to the navbar at top of page */
+nav ul {
+    background-color: #282f44;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #191d32;
+}
+ /* gives current page tab in navbar a defining color */
+.currentPage {
+    background-color: black;
+}
+
+img {
+    float: right;
+    display: block;
+    max-width:230px;
+    border-radius: 30px;
+    width: auto;
+    height: auto;
+    margin-left: 16px;
+    transition: max-width 0.10s ease-in-out;
+}
+
+/* makes image expand when hovering with mouse */
+img:hover {
+    max-width: 280px;
+}
+/* for the unordered list on ideal job page, lessens space between span and ul */
+span {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+ul {
+    margin-bottom: 32px;
+}
