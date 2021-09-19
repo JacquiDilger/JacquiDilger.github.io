@@ -62,7 +62,7 @@ nav ul li a:hover {
     background-color: black;
 }
 
-img {
+.picturePanels {
     float: right;
     display: block;
     max-width:230px;
@@ -73,8 +73,17 @@ img {
     transition: max-width 0.10s ease-in-out;
 }
 
-/* makes image expand when hovering with mouse */
-img:hover {
+.pictureResults {
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 32px;
+}
+
+/* makes .picturePanels images expand when hovering with mouse */
+.picturePanels:hover {
     max-width: 280px;
 }
 /* for the unordered list on ideal job page, lessens space between span and ul */
