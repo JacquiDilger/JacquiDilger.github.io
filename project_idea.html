@@ -23,8 +23,85 @@
 <div id="page-content">
     <h1>Jacqui's Profile</h1>
 
-    <h3>Project Idea:</h3>
-    <p>Here is where I will discuss...</p>
+    <h2>Project Idea:</h2>
+    <h3>Overview</h3>
+    <p>My project idea is a collection of self-made grid-based minigames written in HTML, CSS and JavaScript. This would
+        not only be a feasible achievement to complete by the end of this course, but it would also be a great chance to
+        form a deeper knowledge of the three languages mentioned above. These games could include simple logic games
+        like tic-tac-toe or connect four, or could extend into bigger logic games such as minesweeper or battleships.
+        These games will have various playstyles, like single player and multiplayer, or turn-based and time-based, for
+        example. </p>
+
+    <h3>Motivations</h3>
+    <p>I’ve always been drawn to logic puzzles, so this seemed like an obvious choice. Not only will the result be a
+        collection of puzzles, but the project itself will constantly present situations that need decrypting. During
+        the intermittent lockdowns around Australia, people are constantly finding ways to connect. One of the best
+        shared entertainment tactics used when I was younger was “family game night”. With this, you could
+        hypothetically have everyone you love, no matter where, playing these games and comparing achievements, like the
+        time it took you to clear all safe tiles on a minesweeper board. </p>
+
+    <h3>Description</h3>
+    <p>The overall concept is clear by this point; a website with games! Here’s where I’ll dive a little deeper into the
+        logic behind all of these games. </p>
+
+    <h4>Tic Tac Toe</h4>
+    <p>For this, we’ll need a 3x3 board with 9 tiles. Each tile will need to register clicks, and store vital
+        information to the game. It will need a way to access and see what each adjacent tile stores (x or o for
+        example), and then also commit either a win condition or a lose condition when the program sees 3 adjacent tiles
+        holding either x or o. </p>
+
+    <h4>Minesweeper</h4>
+    <p>For Minesweeper, we’ll need at a minimum and 8x8 board, but this could also be customised by the user with a text
+        input for width and height, or just width and have the height value match the inputted width. Each tile will
+        need to store whether it is or isn’t a bomb, which will be randomised each time you play the game. Each tile
+        will also need to store how many bombs are adjacent, and then display said number on the clicked tile (provided
+        it isn’t a bomb which would result in a lose condition). </p>
+
+    <h4>Battleships</h4>
+    <p>For Battleships, it gets a bit more complicated. We would want to start with a 10x10 board. In the circumstances
+        that all games are only single player, we would also need to design a way for the enemy board to generate where
+        the boats are placed, as well as some logic as to how the enemy will choose where to attack on the players
+        board. Other than this, it’s fairly straightforward, the user will get feedback on whether the tile they picked
+        on the enemy board is or isn’t a boat, and either get to go again if it is, or forfeit their turn if it
+        isn’t. </p>
+
+    <h4>Snakes and Ladders</h4>
+    <p>Snakes and Ladders, although seeming daunting at first, may be one of the simpler games to make. This board won’t
+        need to be randomised, we will just create one board that we use for every game (although randomising would be
+        interesting if we had the time). We will also need a virtual dice, made simply with a random number generator
+        from 1-6. Each tile will need to store whether it is the activation point for a snake or a ladder, or if it is
+        just an empty safe tile. </p>
+
+    <h4>Sudoku</h4>
+    <p>This may be the hardest of my suggestions. We will need a 9x9 board, with individual tiles storing a random
+        number from 1-9. Each row will need to store the numbers 1-9, as well as each column. Each 3x3 section inside of
+        the board will ALSO need to store the numbers 1-9. This could be worked around by creating just one version of a
+        sudoku board, with the numbers being removed being the only randomised aspect. This has its positives and
+        negatives though, the main negative being that once the sudoku is completed, you have all the correct answers
+        and could record them for next time. The positives would be negating the need to create a completely randomised
+        sudoku board each time, which would simplify the overall project.</p>
+
+    <h3>Tools and Technology</h3>
+    <p>As far as hardware goes, all you need is a functioning computer to create this website. When considering
+        software, I plan on using a combination of PhpStorm and GitHub to create the website and keep track of version
+        control. If this project reaches a point where users are able to play from two different PC’s online, we would
+        also need a web server, but it would also complicate the entire project, so that concept is more of a
+        hypothetical. </p>
+
+    <h3>Skills Required</h3>
+    <p>This project is certainly feasible. While we may come across issues on the way, with the combination of
+        trial-and-error and deep research, I’m certain we could find the solutions. Because all games will share similar
+        aspects such as the grid/board-style games with singularly accessible cells or tiles (think each square on a
+        tic-tac-toe board), the biggest issues will be figuring out the way these boards and tiles work, not so much how
+        to make them work for each game. The use of a website will also be handy, as we won’t have to learn about how to
+        make a downloadable application work, just the logic behind each game. </p>
+
+    <h3>Outcome</h3>
+    <p>The outcome of this project will be a functional, readable website that contains a collection of board-style
+        games. The user will be prompted to pick a game, and amount of players if the game calls for it, then the game
+        will appear and be readily playable. Depending on the game, there may be customisable settings such as board
+        size, the use of hints or mistakes, or timers. These will all be accessed through simple textboxes or
+        checkboxes. </p>
 </div>
 </body>
 </html>
