@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Information</title>
+    <!-- Accesses default.css file. -->
     <link rel="stylesheet" href="default.css">
+    <!-- Accesses chosen font.. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Glory:wght@200;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
+<!-- In relation to navbar (each <li> is one item) -->
 <nav>
     <ul>
         <li><a class="currentPage" href="index.html">Personal Information</a></li>
@@ -20,17 +23,21 @@
     </ul>
 </nav>
 
+<!-- Moves onto actual 'content'. -->
 <div id="page-content">
-    <h1>Jacqui's Profile</h1>
-
-    <img src="profile_picture.png" alt="Picture of myself (right) with my cat, Crumpet (left)" class="picturePanels">
+    <!-- Features style as to not require css class with single change. -->
+    <h1 style="text-align:center">Jacqui Dilger's Portfolio</h1>
+    <!-- Adds profile picture.
+    NOTE: style was an oversight, should fix in future. -->
+    <img style="margin-top: 30px" src="profile_picture.png" alt="Picture of myself (right) with my cat, Crumpet (left)"
+         class="picturePanels">
 
     <h2>Personal Information / Introduction:</h2>
 
-    <p>My name is Jacqueline (Jacqui) Rose Dilger, and I’m a new student at RMIT. My student number is s3922650, and my
-        student email is s3922650@student.rmit.edu.au. I was born and raised in Launceston, Tasmania by my beautiful
-        mother Maxine, only a couple of minutes up the road from The Cataract Gorge. Here's a picture of myself and my
-        wonky little friend, Crumpet!</p>
+    <p>My name is Jacqueline (Jacqui) Rose Dilger, and I’m a new student at RMIT. My student number is s3922650,
+        and my student email is s3922650@student.rmit.edu.au. I was born and raised in Launceston, Tasmania by my
+        beautiful mother Maxine, only a couple of minutes up the road from The Cataract Gorge. Here's a picture of
+        myself and my wonky little friend, Crumpet!</p>
 
     <p>I’ve gained my Tasmanian Certificate of Education and a Certificate II in Hospitality through Launceston College,
         as well as a Certificate III in Print Communications at TasTAFE.</p>
@@ -39,8 +46,18 @@
         custom-built PC, and recently bought a PS5. I also have a collection of used consoles that I’ve been too
         attached to to throw out, including the likes of many PlayStation and DS variants, and a bunch of old games that
         are most likely too scratched up to run successfully anyways (I really should consider culling the bunch). I’m
-        also a massive sucker for the Nintendo Switch!</p>
+        also a massive sucker for the Nintendo Switch! My favourite game right now is Overwatch on the PC; a 6v6 online,
+        team-based shooter. </p>
 
+    <!-- Displays information at bottom of each page. -->
+    <h1 style="float:left">Student ID: 3922650</h1>
+    <h1 style="float:right">Student email: s3922650@student.rmit.edu.au</h1>
+    <div style="clear:both"></div>
+
+    <!-- Creates hyperlinks at bottom of each page. -->
+    <div style="float:right">
+        <a href="interest_in_IT.html">Next Page ></a>
+    </div>
 </div>
 </body>
 </html>
